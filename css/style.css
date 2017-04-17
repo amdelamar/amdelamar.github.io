@@ -559,3 +559,6 @@ blockquote {
 .icon-reddit:before {content:"\eac6";}
 .icon-linkedin:before {content:"\eac9";}
 .icon-linkedin2:before {content:"\eaca";}
+.icon-stackoverflow:before {
+content:"\ead0";
+}
