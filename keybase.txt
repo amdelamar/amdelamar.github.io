@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/amdelamar
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://austindelamar.com
+  * I am amdelamar (https://keybase.io/amdelamar) on keybase.
+  * I have a public key ASByqZ8WGGaSEVk-9KhoWO2Gatj6clQQGxn6c4zGH3K_UAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120da004d8718038993bd2e1b4cd127e1e24cb09fb766e1c23ac38a12deef9b335c0a",
+      "host": "keybase.io",
+      "kid": "012072a99f1618669211593ef4a86858ed866ad8fa7254101b19fa738cc61f72bf500a",
+      "uid": "edfc8a7029ad51e633d0ea74b6331519",
+      "username": "amdelamar"
+    },
+    "merkle_root": {
+      "ctime": 1506872876,
+      "hash": "fc73267a1301a29d541c9f06f1634911e1f160a6fd6ffdec1c657f0587ce099fb4d2cde4dd629f4338821aec1ecefc06f5fe0efdcea0831ebef3a8d14a9d30b3",
+      "hash_meta": "80ff01b426b8f7b83272bff3e53e93f67604f4f81f6e8482f60c52951cd18c5d",
+      "seqno": 1481749
+    },
+    "service": {
+      "hostname": "austindelamar.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.31"
+  },
+  "ctime": 1506872882,
+  "expire_in": 504576000,
+  "prev": "5c0fd15b71f251256c326f19c8ddc657a07536b2204293fcfae4b10490a100b9",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgcqmfFhhmkhFZPvSoaFjthmrY+nJUEBsZ+nOMxh9yv1AKp3BheWxvYWTFA0p7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZGEwMDRkODcxODAzODk5M2JkMmUxYjRjZDEyN2UxZTI0Y2IwOWZiNzY2ZTFjMjNhYzM4YTEyZGVlZjliMzM1YzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNzJhOTlmMTYxODY2OTIxMTU5M2VmNGE4Njg1OGVkODY2YWQ4ZmE3MjU0MTAxYjE5ZmE3MzhjYzYxZjcyYmY1MDBhIiwidWlkIjoiZWRmYzhhNzAyOWFkNTFlNjMzZDBlYTc0YjYzMzE1MTkiLCJ1c2VybmFtZSI6ImFtZGVsYW1hciJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUwNjg3Mjg3NiwiaGFzaCI6ImZjNzMyNjdhMTMwMWEyOWQ1NDFjOWYwNmYxNjM0OTExZTFmMTYwYTZmZDZmZmRlYzFjNjU3ZjA1ODdjZTA5OWZiNGQyY2RlNGRkNjI5ZjQzMzg4MjFhZWMxZWNlZmMwNmY1ZmUwZWZkY2VhMDgzMWViZWYzYThkMTRhOWQzMGIzIiwiaGFzaF9tZXRhIjoiODBmZjAxYjQyNmI4ZjdiODMyNzJiZmYzZTUzZTkzZjY3NjA0ZjRmODFmNmU4NDgyZjYwYzUyOTUxY2QxOGM1ZCIsInNlcW5vIjoxNDgxNzQ5fSwic2VydmljZSI6eyJob3N0bmFtZSI6ImF1c3RpbmRlbGFtYXIuY29tIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzEifSwiY3RpbWUiOjE1MDY4NzI4ODIsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiNWMwZmQxNWI3MWYyNTEyNTZjMzI2ZjE5YzhkZGM2NTdhMDc1MzZiMjIwNDI5M2ZjZmFlNGIxMDQ5MGExMDBiOSIsInNlcW5vIjo5LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQNPs583sz4hFmDN+Q+2m6QAaUhSdVXn4HlRRkS0DUFI1mFhGA1fr2X2fOocnfcJoB9n3i7nKaqVmUvR2OO+tDA2oc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCIXY2rK3EplKeB+u//RkYih0nO89DXdDcbzuyrMsuE4KN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/amdelamar
+
+==================================================================
