@@ -114,6 +114,7 @@ th:last-child,td:last-child{padding-right:0;}
 button,.button{margin-bottom:1rem;}
 input,textarea,select,fieldset{margin-bottom:1.5rem;}
 pre,blockquote,dl,figure,table,p,ul,ol,form{margin-bottom:2.5rem;}
+.shadow,.hover-shadow:hover{box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);}
 .u-full-width{width:100%; box-sizing:border-box;}
 .u-max-full-width{max-width:100%; box-sizing:border-box;}
 .u-pull-right{float:right;}
