@@ -12,7 +12,7 @@
 
   <!-- Apple iOS -->
   <link rel="apple-touch-icon" sizes="180x180" href="/img/social/apple-touch-icon.png">
-  <link rel="mask-icon" href="/img/social/safari-pinned-tab.svg" color="#33c3f0">
+  <link rel="mask-icon" href="/img/social/safari-pinned-tab.svg">
 
   <!-- Android -->
   <link rel="icon" sizes="192x192" href="/img/social/android-chrome-192x192.png"/>
@@ -61,6 +61,29 @@
 </head>
 <body>
 
+  <nav id="navbar" class="navbar" aria-label="page navigation">
+      <div class="navbar-body container">
+      <div class="nav-item-logo"></div>
+      <div class="nav-small-menu">
+          <a class="nav-item" title="Open Menu" href="javascript:openSidebar()">
+              <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M0 7h16v2H0V7zm0-6h16v2H0V1zm0 12h16v2H0v-2z" fill-rule="evenodd"></path></svg>
+          </a>
+      </div>
+      <div class="nav-group nav-large-menu text-bold">
+          <div class="nav-item dropdown">
+      		  <a href="#examples">Blog ▾</a>
+      		  <div class="dropdown-body border background-lightgrey text-left">
+              <a href="/blog/">All Posts</a>
+              <a href="/blog/category/">Categories</a>
+        			<a href="/blog/tags/">Tags</a>
+      		  </div>
+      		</div>
+          <a class="nav-item" href="#about">About</a>
+      </div>
+      </div>
+  </nav>
+
+
 <header class="row padding-top-large margin-top-large">
   <div class="container text-center">
     <div class="twelve columns">
@@ -78,10 +101,6 @@
         <a title="Location" href="#"><span class="icon-location" style="font-size:1.2em"></span>&nbsp;San Jose, CA</a>&nbsp;&nbsp;
         <a target="_blank" title="Twitter" href="https://twitter.com/amdelamar"><span class="icon-twitter" style="font-size:1.2em"></span>&nbsp;amdelamar</a>&nbsp;&nbsp;
         <a target="_blank" title="GitHub" href="https://github.com/amdelamar"><span class="icon-github" style="font-size:1.2em"></span>&nbsp;amdelamar</a>
-      </p>
-      <p style="margin-top:25px">
-        <a class="button button-primary" href="#contact"><span class="icon-mail text-medium margin-right"></span>Contact Me</a>
-        <a class="button button-secondary" href="/blog/"><span class="icon-coffee text-medium margin-right"></span>My Blog</a>
       </p>
     </div>
   </div>
@@ -222,7 +241,8 @@
         <a title="IBM" href="https://www.ibm.com/">IBM Corp.</a>
         - Cloud Application Developer</h4>
       <p>East Lansing, MI - <i>January 2013 - August 2018</i> (5 years)<br/>
-        <a target="_blank" href="https://www.youracclaim.com/badges/cfa938ae-547a-4254-870e-1d679911d3a1"><span style="font-size:1.2em" class="icon-star"></span> Certified Cloud App Developer</a>
+        <a target="_blank" href="https://www.youracclaim.com/badges/cfa938ae-547a-4254-870e-1d679911d3a1"><span style="font-size:1.2em" class="icon-trophy"></span> Certified Cloud App Developer</a>&nbsp;&nbsp;
+        <a target="_blank" title="Acclaim" href="https://www.youracclaim.com/user/amdelamar"><span style="font-size:1.2em" class="icon-star"></span> Acclaim Badges</a>&nbsp;&nbsp;
       </p>
     </div>
     <div class="twelve columns">
@@ -259,7 +279,7 @@
     <div class="offset-by-four four columns"><hr class="padding-bottom-large margin-none"/></div>
     <div class="twelve columns">
       <h2 class="text-center">Contact</h2>
-      <p class="text-center" style="font-size:1.5em">
+      <p class="text-center" style="font-size:1.75em">
         <a target="_blank" title="Twitter" href="https://twitter.com/amdelamar"><span class="icon-twitter"></span></a>&nbsp;&nbsp;
         <a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/amdelamar"><span class="icon-linkedin"></span></a>&nbsp;&nbsp;
         <a target="_blank" title="Reddit" href="https://www.reddit.com/u/amdelamar"><span class="icon-reddit"></span></a>&nbsp;&nbsp;
@@ -267,16 +287,20 @@
         <a target="_blank" title="GitHub" href="https://github.com/amdelamar"><span class="icon-github"></span></a>&nbsp;&nbsp;
         <a target="_blank" title="Docker" href="https://hub.docker.com/u/amdelamar"><span class="icon-docker"></span></a>&nbsp;&nbsp;
         <a target="_blank" title="StackOverflow" href="https://stackoverflow.com/users/7065245/amdelamar"><span class="icon-stackoverflow"></span></a>&nbsp;&nbsp;
-        <a target="_blank" title="Acclaim" href="https://www.youracclaim.com/user/amdelamar"><span class="icon-trophy"></span></a>&nbsp;&nbsp;
         <a target="_blank" title="Keybase" href="https://keybase.io/amdelamar"><span class="icon-keybase"></span></a>&nbsp;&nbsp;
       </p>
     </div>
+    <div class="twelve columns">
+      <p class="padding text-center">
+        <a class="button button-primary" href="mailto:amdelamar@protonmail.com?subject=Hello!" title="Send Email"><span class="icon-mail"></span>&nbsp;Email Me</a>
+        <a class="button button-secondary" target="_blank" title="My Public PGP Key" href="/publickey.amdelamar@protonmail.com.txt"><span class="icon-key"></span>&nbsp;Download PGP Key</a>
+        <br/>
+        <span class="text-small">Fingerprint: <code class="text-uppercase" style="white-space: pre-wrap;">0913 3bab e8fd 826c 015c 735c 9425 4427 956f 4fba</code></span>
+      </p>
+    </div>
     <div class="offset-by-two eight columns">
-      <p>
-        <a target="_blank" title="Wire" href="https://wire.com/en/"><span class="icon-wire"></span>&nbsp;@amdelamar</a><br/>
-        <a title="Email" href="mailto:amdelamar@protonmail.com?subject=Hello!"><span class="icon-mail"></span>&nbsp;amdelamar@protonmail.com</a><br/>
-        <a target="_blank" title="PGP Key" href="/publickey.amdelamar@protonmail.com.txt"><span class="icon-key"></span>&nbsp;PGP Key</a>
-        <span style="font-size:0.8em">&nbsp;<code style="white-space: pre-wrap;">Fingerprint: 0913 3bab e8fd 826c 015c 735c 9425 4427 956f 4fba</code></span><br/>
+      <p class="padding">
+        Wallets:<br/>
         <span style="word-wrap: break-word;">
           <a target="_blank" title="Bitcoin" href="https://blockchain.info/address/1gEfZxfcR7MHb6MsCtVD89v9JUD2t9soH"><span class="icon-bitcoin"></span>&nbsp;1gEfZxfcR7MHb6MsCtVD89v9JUD2t9soH</a><br/>
           <a target="_blank" title="Ethereum" href="https://etherscan.io/address/0x5ffeb02b7105be60b7cc2ee01dcea96f9877103c"><span class="icon-ethereum"></span>&nbsp;0x5ffeb02b7105be60b7cc2ee01dcea96f9877103c</a><br/>
@@ -301,8 +325,8 @@
 </article>
 
 <footer class="row section text-center">
-    <p><small><em>&#169; <a href="https://amdelamar.com">AustinDelamar</a> - 2015-2019</em></small></p>
-    <a class="button button-primary float-right margin-right-large" title="Back to top" href="javascript:gotoTop()">Back to Top</a>
+    <p><small><em>&#169; <a href="https://amdelamar.com">AustinDelamar</a> - 2014-2019</em></small></p>
+    <a class="button button-secondary float-right margin-right-large" title="Back to top" href="javascript:gotoTop()">Back to Top</a>
 </footer>
 
 <script type="text/javascript" src="https://amdelamar.com/osseous/2.5.1/osseous.min.js"></script>
