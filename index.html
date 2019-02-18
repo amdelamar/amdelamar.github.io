@@ -83,6 +83,25 @@
       </div>
   </nav>
 
+  <nav id="sidebarMenu" class="sidebar border-right shadow-right" aria-label="page navigation">
+      <div class="nav-item-close">
+          <a class="float-right" title="Close Menu" href="javascript:closeSidebar()" aria-label="Close">
+              <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.757 14.657L8 9.414l5.243 5.243 1.414-1.414L9.414 8l5.243-5.243-1.414-1.414L8 6.586 2.757 1.343 1.343 2.757 6.586 8l-5.243 5.243z" fill-rule="evenodd"></path></svg>
+          </a>
+      </div>
+      <div class="nav-list text-center" onclick="closeSidebar()">
+          <a class="nav-item" href="/">
+            <img class="round shade margin-right" style="vertical-align: middle" src="img/me.jpg" width="24" height="24" title="A picture of me" />
+            Austin Delamar</a>
+          <hr class="full-width margin-none"/>
+          <a class="nav-item" href="/blog/">All Posts</a>
+          <a class="nav-item" href="/blog/category/">Categories</a>
+          <a class="nav-item" href="/blog/tags/">Tags</a>
+          <hr class="full-width margin-none"/>
+          <a class="nav-item" href="#about">About</a>
+          <a class="nav-item" href="#contact">Contact</a>
+      </div>
+  </nav>
 
 <header class="row padding-top-large margin-top-large">
   <div class="container text-center">
@@ -327,9 +346,7 @@
 <footer class="row section text-center">
     <p><small><em>&#169; <a href="https://amdelamar.com">AustinDelamar</a> - 2014-2019</em></small></p>
     <a class="button button-secondary float-right margin-right-large" title="Back to top" href="javascript:gotoTop()">Back to Top</a>
+    <script type="text/javascript" src="https://amdelamar.com/osseous/2.5.1/osseous.min.js"></script>
 </footer>
-
-<script type="text/javascript" src="https://amdelamar.com/osseous/2.5.1/osseous.min.js"></script>
-
 </body>
 </html>
