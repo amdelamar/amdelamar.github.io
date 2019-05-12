@@ -54,54 +54,62 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/img/social/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/img/social/favicon-16x16.png">
   <link rel="stylesheet" href="vendor/icomoon/icomoon.css">
-  <link rel="stylesheet" href="https://amdelamar.com/osseous/2.5.1/osseous.min.css">
+  <link rel="stylesheet" href="https://amdelamar.com/osseous/3.0.0/osseous.min.css">
   <link rel="stylesheet" href="css/style.min.css">
   <!--<link rel="alternate" href="https://amdelamar.com/blog/rss" type="application/rss+xml" title="RSS">-->
   <title>Austin Delamar - Software Engineer</title>
 </head>
 <body>
 
-  <nav id="navbar" class="navbar" aria-label="page navigation">
-      <div class="navbar-body container">
-      <div class="nav-item-logo"><!--Austin Delamar--></div>
-      <div class="nav-small-menu">
-          <a class="nav-item" title="Open Menu" href="javascript:openSidebar()">
-              <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M0 7h16v2H0V7zm0-6h16v2H0V1zm0 12h16v2H0v-2z" fill-rule="evenodd"></path></svg>
-          </a>
-      </div>
-      <div class="nav-group nav-large-menu text-bold">
-          <div class="nav-item dropdown">
-      		  <a href="/blog/">Blog ▾</a>
-      		  <div class="dropdown-body border background-lightgrey text-left">
-              <a href="/blog/">All Posts</a>
-              <a href="/blog/category/">Categories</a>
-        			<a href="/blog/tags/">Tags</a>
-      		  </div>
-      		</div>
-          <a class="nav-item" href="#about">About</a>
-      </div>
-      </div>
-  </nav>
+<nav id="navbar">
+    <div id="navbar-body" class="container">
+    <div class="nav-item-logo"><!-- Austin Delamar --></div>
+    <div class="nav-small-menu">
+      <label class="clickable" for="toggleSidebar">
+        <span class="nav-item" title="Open Menu">
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M0 7h16v2H0V7zm0-6h16v2H0V1zm0 12h16v2H0v-2z" fill-rule="evenodd"></path></svg>
+        </span>
+      </label>
+    </div>
+    <div class="nav-group nav-large-menu text-bold">
+    		<div class="nav-item dropdown">
+    		  <a href="#docs">Blog &#9662;</a>
+    		  <div class="dropdown-body border background-lightgrey text-left">
+            <a href="/blog/">All Posts</a>
+            <a href="/blog/category/">Categories</a>
+      			<a href="/blog/tags/">Tags</a>
+    		  </div>
+    		</div>
+        <a class="nav-item" href="#about">About</a>
+    </div>
+    </div>
+</nav>
 
-  <nav id="sidebarMenu" class="sidebar border-right shadow-right" aria-label="page navigation">
-      <div class="nav-item-close">
-          <a class="float-right" title="Close Menu" href="javascript:closeSidebar()" aria-label="Close">
-              <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.757 14.657L8 9.414l5.243 5.243 1.414-1.414L9.414 8l5.243-5.243-1.414-1.414L8 6.586 2.757 1.343 1.343 2.757 6.586 8l-5.243 5.243z" fill-rule="evenodd"></path></svg>
-          </a>
-      </div>
-      <div class="nav-list text-center" onclick="closeSidebar()">
-          <a class="nav-item" href="/">
-            <img class="round shade margin-right" style="vertical-align: middle" src="img/amdelamar.jpeg" width="24" height="24" title="A picture of me" />
-            Austin Delamar</a>
-          <hr class="full-width margin-none"/>
-          <a class="nav-item" href="/blog/">All Posts</a>
-          <a class="nav-item" href="/blog/category/">Categories</a>
-          <a class="nav-item" href="/blog/tags/">Tags</a>
-          <hr class="full-width margin-none"/>
-          <a class="nav-item" href="#about">About</a>
-          <a class="nav-item" href="#contact">Contact</a>
-      </div>
-  </nav>
+<input type="checkbox" id="toggleSidebar" style="display: none;">
+<nav id="sidebar" class="border-right shadow-right">
+    <div class="nav-item-close">
+      <label class="clickable" for="toggleSidebar">
+        <span class="float-right" title="Close Menu" aria-label="Close">
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.757 14.657L8 9.414l5.243 5.243 1.414-1.414L9.414 8l5.243-5.243-1.414-1.414L8 6.586 2.757 1.343 1.343 2.757 6.586 8l-5.243 5.243z" fill-rule="evenodd"></path></svg>
+        </span>
+      </label>
+    </div>
+    <div class="nav-list text-center" onclick="closeSidebar()">
+        <a class="nav-item" href="/">
+          <img class="round shade margin-right" style="vertical-align: middle" src="img/amdelamar.jpeg" width="24" height="24" title="A picture of me" />
+          Austin Delamar</a>
+        <details class="nav-item">
+    		  <summary>Blog</summary>
+    		  <div class="nav-list padding margin-top border-top border-bottom">
+            <a class="nav-item" href="/blog/">All Posts</a>
+            <a class="nav-item" href="/blog/category/">Categories</a>
+            <a class="nav-item" href="/blog/tags/">Tags</a>
+    		  </div>
+    		</details>
+        <a class="nav-item" href="#about">About</a>
+        <a class="nav-item" href="#contact">Contact</a>
+    </div>
+</nav>
 
 <header class="row padding-top-large margin-top-large">
   <div class="container text-center">
@@ -209,34 +217,9 @@
       </div>
     </div>
 
-    <!--<div class="row">
-      <div class="six columns">
-        <h4 class="margin-none padding-none">Oddox Server</h4>
-        <a class="button button-primary button-small" target="_blank" title="Project" href="https://amdelamar.com/oddox-website">Website</a>
-        <a class="button button-secondary button-small" target="_blank" title="Source" href="https://github.com/amdelamar/oddox-server">GitHub</a>
-        <a class="button button-small" target="_blank" title="Docker" href="https://hub.docker.com/u/amdelamar">Docker</a>
-        <p>
-          Blogging server built with Java on CouchDB, ready for cloud
-          platforms via Docker image. Currently powering <a target="_blank" title="RamblingWare" href="https://www.ramblingware.com/">RamblingWare.com</a>,
-          my personal blog.
-        </p>
-      </div>
-      <div class="six columns">
-        <h4 class="margin-none padding-none">Oddox Dashboard</h4>
-        <a class="button button-primary button-small" target="_blank" title="Project" href="https://amdelamar.com/oddox-website">Website</a>
-        <a class="button button-secondary button-small" target="_blank" title="Source" href="https://github.com/amdelamar/oddox-dashboard">GitHub</a>
-        <a class="button button-small" target="_blank" title="Docker" href="https://hub.docker.com/u/amdelamar">Docker</a>
-        <p>
-          SPA dashboard for authors to write, sync, and manage their Oddox
-          blog. Offline-first with PouchDB sync to CouchDB database.
-        </p>
-      </div>
-    </div>-->
-
     <div class="twelve columns">
       <p class="text-center">
-        View more projects and open-source contributions on my &nbsp;<a target="_blank" title="GitHub" href="https://github.com/amdelamar/"><span class="icon-github"></span> GitHub</a>.<br/>
-        <!--Or read what I'm up to on my &nbsp;<a target="_blank" title="RamblingWare" href="https://amdelamar.com/blog"><span class="icon-coffee"></span> blog</a>-->
+        View more projects and open-source contributions on my &nbsp;<a target="_blank" title="GitHub" href="https://github.com/amdelamar/"><span class="icon-github"></span> GitHub</a>.
       </p>
     </div>
   </div>
@@ -251,7 +234,7 @@
         <a title="Apple" href="https://www.apple.com/">Apple, Inc.</a> - Backend Software Engineer
       </h4>
       <p>
-        Cupertino, CA - <i>September 2018 - Current</i> (6+ months)<br/>
+        Cupertino, CA - <i>September 2018 - Current</i> (9+ months)<br/>
         <code class="text-small">Scala</code>
         <code class="text-small">Python</code>
         <code class="text-small">Kafka</code>
@@ -288,9 +271,11 @@
         <code class="text-small">SQL Server</code>
         <code class="text-small">PI-Tags</code>
       </p>
+    </div>
 
-      <br/>
-      <p class="text-center">View my full work history at &nbsp;<a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/amdelamar"><span class="icon-linkedin"></span> LinkedIn</a>.
+    <div class="twelve columns">
+      <p class="text-center">
+        View my full work history at &nbsp;<a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/amdelamar"><span class="icon-linkedin"></span> LinkedIn</a>.
       </p>
     </div>
   </div>
@@ -374,12 +359,12 @@
       </p>
     </div>
   </div>
+
 </article>
 
 <footer class="row section text-center">
     <p><small><em>&#169; <a href="https://amdelamar.com">AustinDelamar</a> - 2014-2019</em></small></p>
-    <a class="button button-secondary float-right margin-right-large" title="Back to top" href="javascript:gotoTop()">Back to Top</a>
-    <script type="text/javascript" src="https://amdelamar.com/osseous/2.5.1/osseous.min.js"></script>
+    <a class="button button-primary float-right margin-right-large" title="Back to top" href="#">Back to Top</a>
 </footer>
 </body>
 </html>
