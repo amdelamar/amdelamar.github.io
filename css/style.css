@@ -7,3 +7,6 @@ body {
 .container {
   max-width: 800px !important;
 }
+article img {
+    max-width: 100%;
+}
