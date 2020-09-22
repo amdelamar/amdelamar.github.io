@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: amdelamar.com
-Token: 0e480672def6fee8df3c5d68e9b94bd6e39b17315e161f39dff7e21ff21b17d8
